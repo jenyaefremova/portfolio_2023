@@ -110,7 +110,7 @@ a {
 }
 
 .language-per {
-  font-style: 15px;
+  font-size: 15px;
   font-weight: 600;
 }
 
@@ -382,11 +382,9 @@ a {
     padding-left: 20px;
     padding-right: 20px;
   }
-  
   .languages {
     flex-wrap: nowrap;
   }
-
 }
 
 @media (max-width: 567px) {
@@ -416,6 +414,9 @@ a {
     display: block;
     font-size: 13px;
   }
+  .languages {
+    flex-wrap: nowrap;
+  }
 
 }
 
@@ -439,7 +440,18 @@ a {
   .progress {
     width: 50%;
   }
-  
- 
+  .language-block {
+    width: 90px;
+    height: 90px;
+  }
+    .language-text {
+      
+      font-size: 9px;
+    }
+    
+    .language-per {
+      font-size: 13px;
+     
+    }
 
 }
