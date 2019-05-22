@@ -10,10 +10,15 @@ html {
 
 body {
   font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
 }
 
 a {
   text-decoration: none;
+}
+
+li {
+  list-style: none;
 }
 
 .container {
@@ -39,7 +44,6 @@ a {
   height: 230px;
   background: url(img/me.jpg) no-repeat;
   background-size: cover;
-
 }
 
 .profile-text {
@@ -56,7 +60,6 @@ a {
   color: #ffffff;
   border-bottom: 2px dashed #5a5a5a;
   text-transform: uppercase;
-  font-size: 16px;
   font-weight: 700;
 }
 
@@ -68,14 +71,12 @@ a {
 .contact-title {
   color: #ffffff;
   margin-bottom: 13px;
-  font-size: 16px;
   font-weight: 400;
 }
 
 .contact-text {
   color: #ababab;
   padding-left: 27px;
-
 }
 
 .contact-item {
@@ -118,14 +119,12 @@ a {
   display: flex;
   flex-wrap: wrap;
   padding-top: 40px;
-
 }
 
 .lines {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
 }
 
 .line {
@@ -207,7 +206,7 @@ a {
 }
 
 .name {
-  font-size: 16px;
+
   letter-spacing: 12.75px;
   font-weight: 500;
   font-family: 'Roboto', sans-serif;
@@ -233,7 +232,6 @@ a {
 
 .about-contacts {
   font-size: 8px;
-
 }
 
 .about-contacts a {
@@ -241,8 +239,6 @@ a {
 }
 
 .heding-dark {
-  font-size: 16px;
-
   text-transform: uppercase;
   border-bottom: 1px solid #e0e0e0;
   padding-bottom: 23px;
@@ -332,20 +328,32 @@ a {
   width: 80%;
 }
 
-.progress-60::before {
-  width: 60%;
+.progress-70::before {
+  width: 70%;
 }
 
 .progress-90::before {
   width: 90%;
 }
+
 .progress-30::before {
   width: 30%;
 }
+
 .progress-10::before {
   width: 10%;
 }
 
+.programms-list {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0;
+  flex-wrap: wrap;
+}
+
+.programms-list__item {
+  padding: 10px;
+}
 
 
 @media (max-width: 1024px) {
@@ -374,6 +382,7 @@ a {
   .container {
     width: 80%;
   }
+
   .resume {
     padding: 10px;
   }
@@ -382,6 +391,7 @@ a {
     padding-left: 20px;
     padding-right: 20px;
   }
+
   .languages {
     flex-wrap: nowrap;
   }
@@ -410,10 +420,12 @@ a {
     font-size: 12px;
     line-height: 1.4;
   }
+
   .about-contacts a {
     display: block;
     font-size: 13px;
   }
+
   .languages {
     flex-wrap: nowrap;
   }
@@ -425,6 +437,7 @@ a {
   .profile-photo {
     height: 230px;
   }
+
   .logo {
     display: none;
   }
@@ -440,18 +453,20 @@ a {
   .progress {
     width: 50%;
   }
+
   .language-block {
     width: 90px;
     height: 90px;
   }
-    .language-text {
-      
-      font-size: 9px;
-    }
-    
-    .language-per {
-      font-size: 13px;
-     
-    }
+
+  .language-text {
+
+    font-size: 9px;
+  }
+
+  .language-per {
+    font-size: 13px;
+
+  }
 
 }
