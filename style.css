@@ -24,6 +24,10 @@ li {
   list-style: none;
 }
 
+ul {
+  padding: 0;
+}
+
 .container {
   display: flex;
   max-width: 960px;
@@ -96,9 +100,7 @@ li {
 }
 
 /*works*/
-.works__list {
-  padding: 0;
-}
+
 .works__list li {
   margin-bottom: 20px;
 }
