@@ -351,11 +351,6 @@ ul {
   .profile-photo {
     height: 500px;
   }
-
-  .lines {
-    display: none;
-  }
-
 }
 
 @media (max-width: 768px) {
@@ -377,11 +372,6 @@ ul {
   .logo-image {
     width: 70px;
     height: 70px;
-  }
-
-  .logo-lines {
-    margin-left: 8px;
-    margin-right: 8px;
   }
 
   .list-item__title {
@@ -407,10 +397,6 @@ ul {
 
   .profile-photo {
     height: 230px;
-  }
-
-  .logo {
-    display: none;
   }
 
   .container {
