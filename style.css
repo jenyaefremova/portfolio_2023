@@ -316,7 +316,7 @@ ul {
   width: 100%;
 }
 
-.progress-50::before {
+.progress-30::before {
   width: 30%;
 }
 
