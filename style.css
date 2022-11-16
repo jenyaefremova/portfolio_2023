@@ -231,7 +231,6 @@ ul {
   position: relative;
   padding-left: 40px;
   padding-bottom: 30px;
-  margin-bottom: 30px;
   border-bottom: 2px dashed #ececec;
 }
 
@@ -313,13 +312,16 @@ ul {
 .progress-90::before {
   width: 90%;
 }
+.progress-100::before {
+  width: 100%;
+}
 
-.progress-30::before {
+.progress-50::before {
   width: 30%;
 }
 
-.progress-10::before {
-  width: 10%;
+.progress-20::before {
+  width: 20%;
 }
 
 /*programs*/
